@@ -28,6 +28,7 @@ Game countdiwn timer to add objective of survival
 Enemies have random chance to drop health items when killed or rewound with the right click
 Health pickups that heal the player
 Enemy flashes red when hit
+Enemies look at player and move towards them and only shoot when in range
 
 Troubles:
 
@@ -39,3 +40,7 @@ the mouse was relative to the center.
 The enemies can push the player around and restrict their movement if they swarm
 the player. They can also force the player through the ground if it happens in a
 corner, so if this happens the game should be restarted with backspace or the menus.
+
+Also, the mouse is not able to look around in the build over remote desktop, but
+worked when I tested it in person, so I assume it is a deficiency of rdp and the
+way it handles mouse input.
